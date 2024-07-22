@@ -8,8 +8,8 @@ This project performs analytics on the Indian Agriculture dataset and displays t
 
 1. **Clone the repository:**
   
-   git clone https://github.com/yourusername/indian-agriculture-analysis.git
-   cd indian-agriculture-analysis
+   git clone https://github.com/Surajbhatt1/Frontend-Data-Analysis-Task-v4-.git
+   cd manufac-analytics
 
 2. **Install dependencies:**
 
