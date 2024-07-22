@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Indian Agriculture Data Analysis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project performs analytics on the Indian Agriculture dataset and displays the results in tables using Mantine v7.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup
 
-## Expanding the ESLint configuration
+1. **Clone the repository:**
+  
+   git clone https://github.com/yourusername/indian-agriculture-analysis.git
+   cd indian-agriculture-analysis
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+2. **Install dependencies:**
 
-- Configure the top-level `parserOptions` property like this:
+    ```bash
+    yarn install
+    ```
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. **Run the project:**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+    ```bash
+    yarn dev
+    ```
+
+    This will start the development server and open the application in your browser.
